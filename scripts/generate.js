@@ -1,164 +1,145 @@
-const fs = require("fs");
-const path = require("path");
-const prettier = require("prettier");
+import fs from "fs";
+import path from "path";
+import numberToWords from "number-to-words";
+import pascalcase from "pascalcase";
+import prettier from "prettier";
 
-const { format } = prettier;
+// FOR `"type": "module"`
+import url from "url";
+const __filename = url.fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const SOURCE_ICONS_PATH = path.resolve(
-    __dirname,
-    "../node_modules/@tabler/icons/icons/"
+  __dirname,
+  "../node_modules/@tabler/icons/icons/"
 );
 const DIST_PATH = path.resolve(__dirname, "../");
 const DESTINATION_ICONS_PATH = path.resolve(__dirname, "../icons");
 
-const prettierOptions = prettier.resolveConfig(__dirname);
+const TABLER_ICONS_VERSION = JSON.parse(
+  fs.readFileSync(path.resolve(__dirname, "../package-lock.json"), "utf8")
+)["dependencies"]["@tabler/icons"]["version"];
 
-function pascalCase(string) {
-    return string
-        .replace(/(^\w|-\w)/g, (letter) => letter.toUpperCase())
-        .replace(/-/g, "");
-}
+const ICON_NAMES = fs
+  .readdirSync(SOURCE_ICONS_PATH)
+  .filter((file) => file.endsWith(".svg"))
+  .map((x) => x.split(".")[0]);
 
-function getComponentTemplate() {
-    return fs.readFileSync(
-        path.resolve(__dirname, "./component-template.svelte"),
+const { format } = prettier;
+const PRETTIER_OPTIONS = await prettier.resolveConfig(__dirname);
+
+const createComponentName = (originalName) => {
+  return originalName
+    .split(/(\d+)/)
+    .filter((x) => x != "")
+    .map((x) => {
+      if (/\d/g.test(x)) {
+        return pascalcase(numberToWords.toWords(x));
+      } else {
+        return pascalcase(x);
+      }
+    })
+    .join("");
+};
+
+const generateComponents = async () => {
+  ICON_NAMES.forEach((originalName) => {
+    const svgFileContents = fs.readFileSync(
+      path.resolve(SOURCE_ICONS_PATH, `${originalName}.svg`),
+      "utf8"
+    );
+
+    const [, svgContent] = /<svg[^>]*>([\s\S]*?)<\/svg>/.exec(svgFileContents);
+    let source = fs
+      .readFileSync(
+        path.resolve(__dirname, "./ComponentTemplate.svelte"),
         "utf8"
-    );
-}
+      )
+      .replace(/%%TABLER_ICON_VERSION%%/g, TABLER_ICONS_VERSION)
+      .replace(/%%SVG_CONTENT%%/g, svgContent);
 
-function getTypesTemplate() {
-    return fs.readFileSync(
-        path.resolve(__dirname, "./types-template.d.ts"),
-        "utf8"
-    );
-}
-
-function getDocTemplate() {
-    return fs.readFileSync(
-        path.resolve(__dirname, "./ICON_INDEX_TEMPLATE.md"),
-        "utf8"
-    );
-}
-
-function createDir(path) {
-    if (!fs.existsSync(path)) {
-        fs.mkdirSync(path);
-    }
-}
-
-function findIcons() {
-    return fs
-        .readdirSync(SOURCE_ICONS_PATH)
-        .filter((file) => file.endsWith(".svg"));
-}
-
-function createComponentName(originalName) {
-    return (
-        pascalCase(originalName)
-            // A digit at the beginning of component name is not allowed
-            .replace("2fa", "TwoFA")
-            .replace("3dCubeSphere", "ThreeDCubeSphere")
-    );
-}
-
-function removeOldComponents() {
-    const components = fs
-        .readdirSync(DESTINATION_ICONS_PATH)
-        .filter((file) => file.endsWith(".svelte"));
-    for (const file of components) {
-        fs.unlinkSync(path.join(DESTINATION_ICONS_PATH, file));
-    }
-}
-
-async function generateNewComponents() {
-    const exports = [];
-
-    for (const file of findIcons()) {
-        const [originalName] = file.split(".");
-        const svgFileContents = fs.readFileSync(
-            path.resolve(SOURCE_ICONS_PATH, file),
-            "utf8"
-        );
-
-        const componentName = createComponentName(originalName);
-
-        const [, svgContent] = /<svg[^>]*>([\s\S]*?)<\/svg>/.exec(
-            svgFileContents
-        );
-
-        let source = getComponentTemplate()
-            .replace(/%%SVG_CONTENT%%/g, svgContent)
-            .replace(/%%ORIGINAL_NAME%%/g, originalName);
-
-        fs.writeFileSync(
-            path.resolve(DESTINATION_ICONS_PATH, `${componentName}.svelte`),
-            format(source, { parser: "html", ...(await prettierOptions) })
-        );
-    }
-}
-
-async function createIndexFile() {
-    const exports = findIcons().map((file) => {
-        const [originalName] = file.split(".");
-        const componentName = createComponentName(originalName);
-
-        return `export { default as ${componentName} } from "./icons/${componentName}.svelte"`;
-    });
-
+    const componentName = createComponentName(originalName);
     fs.writeFileSync(
-        path.resolve(DIST_PATH, "index.js"),
-        format(exports.join("\n"), {
-            parser: "babel",
-            ...(await prettierOptions),
-        })
+      path.resolve(DESTINATION_ICONS_PATH, `${componentName}.svelte`),
+      format(source, { parser: "html", ...PRETTIER_OPTIONS })
     );
-}
+  });
+};
 
-async function createTypesFile() {
-    const exports = findIcons().map((file) => {
-        const [originalName] = file.split(".");
-        const componentName = createComponentName(originalName);
+const createIndexFile = async () => {
+  const exports = ICON_NAMES.map((originalName) => {
+    const componentName = createComponentName(originalName);
+    return `export { default as ${componentName} } from "./icons/${componentName}.svelte"`;
+  });
 
-        return `\
+  fs.writeFileSync(
+    path.resolve(DIST_PATH, "index.js"),
+    format(exports.join("\n"), {
+      parser: "babel",
+      ...PRETTIER_OPTIONS,
+    })
+  );
+};
+
+const createTypesFile = async () => {
+  const imports = `import { SvelteComponentTyped } from "svelte";\n`;
+  const exports = ICON_NAMES.map((originalName) => {
+    const componentName = createComponentName(originalName);
+    return `\
             export class ${componentName} extends SvelteComponentTyped<{
-                color?: string;
-                size?: string | number;
-                strokeWidth?: string | number;
+                class?: string;
             }> {}\
         `;
-    });
+  });
 
-    fs.writeFileSync(
-        path.resolve(DIST_PATH, "index.d.ts"),
-        format(getTypesTemplate() + exports.join("\n"), {
-            parser: "typescript",
-            ...(await prettierOptions),
-        })
-    );
+  fs.writeFileSync(
+    path.resolve(DIST_PATH, "index.d.ts"),
+    format(imports + exports.join("\n"), {
+      parser: "typescript",
+      ...PRETTIER_OPTIONS,
+    })
+  );
+};
+
+const createDocFile = async () => {
+  const rows = ICON_NAMES.map((originalName) => {
+    const componentName = createComponentName(originalName);
+    return `| ${componentName} | ${originalName} |`;
+  });
+
+  fs.writeFileSync(
+    path.resolve(__dirname, "../ICON_INDEX_DOC.md"),
+    format(
+      fs.readFileSync(
+        path.resolve(__dirname, "./ICON_INDEX_DOC_TEMPLATE.md"),
+        "utf8"
+      ) + rows.join("\n"),
+      {
+        parser: "markdown",
+        ...PRETTIER_OPTIONS,
+      }
+    )
+  );
+};
+
+if (!fs.existsSync(DESTINATION_ICONS_PATH)) {
+  fs.mkdirSync(DESTINATION_ICONS_PATH);
 }
 
-async function createDocFile() {
-    const rows = findIcons().map((file) => {
-        const [originalName] = file.split(".");
-        const componentName = createComponentName(originalName);
+// remove old files
+fs.readdirSync(DESTINATION_ICONS_PATH)
+  .filter((file) => file.endsWith(".svelte"))
+  .forEach((file) => fs.unlinkSync(path.join(DESTINATION_ICONS_PATH, file)));
+fs.readdirSync(DIST_PATH)
+  .filter(
+    (file) =>
+      file === "index.js" ||
+      file === "index.d.ts" ||
+      file === "ICON_INDEX_DOC.md"
+  )
+  .forEach((file) => fs.unlinkSync(path.join(DIST_PATH, file)));
 
-        return `| ${componentName} | ${originalName} |`;
-    });
-
-    fs.writeFileSync(
-        path.resolve(__dirname, "../ICON_INDEX.md"),
-        format(getDocTemplate() + rows.join("\n"), {
-            parser: "markdown",
-            ...(await prettierOptions),
-        })
-    );
-}
-
-createDir(DESTINATION_ICONS_PATH);
-
-removeOldComponents();
-generateNewComponents();
-
+generateComponents();
 createIndexFile();
 createTypesFile();
 createDocFile();

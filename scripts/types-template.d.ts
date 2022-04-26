@@ -1,1 +1,0 @@
-import { SvelteComponentTyped } from "svelte";
