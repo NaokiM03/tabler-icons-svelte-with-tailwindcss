@@ -17,7 +17,7 @@
   "types": "index.d.ts",
   "scripts": {
     "build": "node ./scripts/generate.js",
-    "update": "npm-check-updates"
+    "update": "npm-check-updates -u"
   },
   "devDependencies": {
     "@tabler/icons": "^1.67.0",
