@@ -38,6 +38,7 @@
 | AnchorOff                  | anchor-off                    |
 | Anchor                     | anchor                        |
 | Angle                      | angle                         |
+| Ankh                       | ankh                          |
 | AntennaBarsOne             | antenna-bars-1                |
 | AntennaBarsTwo             | antenna-bars-2                |
 | AntennaBarsThree           | antenna-bars-3                |
@@ -192,6 +193,7 @@
 | Artboard                   | artboard                      |
 | AspectRatioOff             | aspect-ratio-off              |
 | AspectRatio                | aspect-ratio                  |
+| Asset                      | asset                         |
 | AsteriskSimple             | asterisk-simple               |
 | Asterisk                   | asterisk                      |
 | AtOff                      | at-off                        |
@@ -376,6 +378,7 @@
 | BrandHipchat               | brand-hipchat                 |
 | BrandHtmlFive              | brand-html5                   |
 | BrandInstagram             | brand-instagram               |
+| BrandIntercom              | brand-intercom                |
 | BrandJavascript            | brand-javascript              |
 | BrandKickstarter           | brand-kickstarter             |
 | BrandKotlin                | brand-kotlin                  |
@@ -628,6 +631,8 @@
 | ClockTwo                   | clock-2                       |
 | ClockOff                   | clock-off                     |
 | Clock                      | clock                         |
+| CloudComputing             | cloud-computing               |
+| CloudDataConnection        | cloud-data-connection         |
 | CloudDownload              | cloud-download                |
 | CloudFog                   | cloud-fog                     |
 | CloudLockOpen              | cloud-lock-open               |
@@ -772,6 +777,7 @@
 | DeviceDesktopOff           | device-desktop-off            |
 | DeviceDesktop              | device-desktop                |
 | DeviceFloppy               | device-floppy                 |
+| DeviceGamepadTwo           | device-gamepad-2              |
 | DeviceGamepad              | device-gamepad                |
 | DeviceHeartMonitor         | device-heart-monitor          |
 | DeviceLaptopOff            | device-laptop-off             |
@@ -788,6 +794,7 @@
 | DeviceTabletOff            | device-tablet-off             |
 | DeviceTablet               | device-tablet                 |
 | DeviceTvOff                | device-tv-off                 |
+| DeviceTvOld                | device-tv-old                 |
 | DeviceTv                   | device-tv                     |
 | DeviceWatchOff             | device-watch-off              |
 | DeviceWatchStatsTwo        | device-watch-stats-2          |
@@ -1115,6 +1122,7 @@
 | IceCreamOff                | ice-cream-off                 |
 | IceCream                   | ice-cream                     |
 | IceSkating                 | ice-skating                   |
+| Icons                      | icons                         |
 | IdBadgeTwo                 | id-badge-2                    |
 | IdBadge                    | id-badge                      |
 | IdOff                      | id-off                        |
@@ -1127,8 +1135,10 @@
 | InfoCircle                 | info-circle                   |
 | InfoSquare                 | info-square                   |
 | Italic                     | italic                        |
+| JewishStar                 | jewish-star                   |
 | JumpRope                   | jump-rope                     |
 | Karate                     | karate                        |
+| Kayak                      | kayak                         |
 | Kering                     | kering                        |
 | KeyOff                     | key-off                       |
 | Key                        | key                           |
@@ -1344,6 +1354,7 @@
 | Moped                      | moped                         |
 | Motorbike                  | motorbike                     |
 | Mountain                   | mountain                      |
+| MouseTwo                   | mouse-2                       |
 | MouseOff                   | mouse-off                     |
 | Mouse                      | mouse                         |
 | MovieOff                   | movie-off                     |
@@ -1488,6 +1499,7 @@
 | PlugX                      | plug-x                        |
 | Plug                       | plug                          |
 | Plus                       | plus                          |
+| Podium                     | podium                        |
 | PointOff                   | point-off                     |
 | Point                      | point                         |
 | Pokeball                   | pokeball                      |
@@ -1652,6 +1664,7 @@
 | ShoppingCartPlus           | shopping-cart-plus            |
 | ShoppingCartX              | shopping-cart-x               |
 | ShoppingCart               | shopping-cart                 |
+| Shovel                     | shovel                        |
 | Shredder                   | shredder                      |
 | SignLeft                   | sign-left                     |
 | SignRight                  | sign-right                    |
@@ -1846,6 +1859,7 @@
 | Trident                    | trident                       |
 | Trophy                     | trophy                        |
 | TruckDelivery              | truck-delivery                |
+| TruckLoading               | truck-loading                 |
 | TruckOff                   | truck-off                     |
 | TruckReturn                | truck-return                  |
 | Truck                      | truck                         |
@@ -1913,6 +1927,7 @@
 | WaveSine                   | wave-sine                     |
 | WaveSquare                 | wave-square                   |
 | Webhook                    | webhook                       |
+| Wheelchair                 | wheelchair                    |
 | WifiZero                   | wifi-0                        |
 | WifiOne                    | wifi-1                        |
 | WifiTwo                    | wifi-2                        |
@@ -1958,7 +1973,10 @@
 | ZoomCheck                  | zoom-check                    |
 | ZoomCode                   | zoom-code                     |
 | ZoomExclamation            | zoom-exclamation              |
+| ZoomInArea                 | zoom-in-area                  |
 | ZoomIn                     | zoom-in                       |
 | ZoomMoney                  | zoom-money                    |
+| ZoomOutArea                | zoom-out-area                 |
 | ZoomOut                    | zoom-out                      |
+| ZoomPan                    | zoom-pan                      |
 | ZoomQuestion               | zoom-question                 |
