@@ -12,7 +12,7 @@ A library of Svelte components for [Tabler Icons](https://github.com/tabler/tabl
 
 ```sh
 # npm
- npm install -D tabler-icons-svelte-with-tailwindcss
+npm install -D tabler-icons-svelte-with-tailwindcss
 ```
 
 `tabler-icons-svelte-with-tailwindcss` needs to be added as a dev dependency as Svelte [requires original component source](https://github.com/sveltejs/sapper-template#using-external-components)
