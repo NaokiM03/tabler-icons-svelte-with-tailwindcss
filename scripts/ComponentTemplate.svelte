@@ -10,6 +10,7 @@
   fill="none"
   stroke-linecap="round"
   stroke-linejoin="round"
+  on:click
 >
 <!-- Tabler Icons %%TABLER_ICON_VERSION%% | MIT License | https://tabler-icons.io -->
 <!-- START -->
