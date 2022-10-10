@@ -583,6 +583,7 @@
 | BrandStrava                | brand-strava                  |
 | BrandStripe                | brand-stripe                  |
 | BrandSublimeText           | brand-sublime-text            |
+| BrandSuperhuman            | brand-superhuman              |
 | BrandSupernova             | brand-supernova               |
 | BrandSurfshark             | brand-surfshark               |
 | BrandSvelte                | brand-svelte                  |
@@ -592,6 +593,7 @@
 | BrandTidal                 | brand-tidal                   |
 | BrandTiktok                | brand-tiktok                  |
 | BrandTinder                | brand-tinder                  |
+| BrandTopbuzz               | brand-topbuzz                 |
 | BrandToyota                | brand-toyota                  |
 | BrandTrello                | brand-trello                  |
 | BrandTripadvisor           | brand-tripadvisor             |
@@ -611,6 +613,7 @@
 | BrandVisualStudio          | brand-visual-studio           |
 | BrandVivaldi               | brand-vivaldi                 |
 | BrandVk                    | brand-vk                      |
+| BrandVolkswagen            | brand-volkswagen              |
 | BrandVsco                  | brand-vsco                    |
 | BrandVscode                | brand-vscode                  |
 | BrandVue                   | brand-vue                     |
@@ -712,6 +715,7 @@
 | Candle                     | candle                        |
 | CandyOff                   | candy-off                     |
 | Candy                      | candy                         |
+| Cane                       | cane                          |
 | Cannabis                   | cannabis                      |
 | CaptureOff                 | capture-off                   |
 | Capture                    | capture                       |
@@ -723,6 +727,7 @@
 | Caravan                    | caravan                       |
 | CardboardsOff              | cardboards-off                |
 | Cardboards                 | cardboards                    |
+| Cards                      | cards                         |
 | CaretDown                  | caret-down                    |
 | CaretLeft                  | caret-left                    |
 | CaretRight                 | caret-right                   |
@@ -790,6 +795,7 @@
 | Cheese                     | cheese                        |
 | ChefHatOff                 | chef-hat-off                  |
 | ChefHat                    | chef-hat                      |
+| Cherry                     | cherry                        |
 | Chess                      | chess                         |
 | ChevronDownLeft            | chevron-down-left             |
 | ChevronDownRight           | chevron-down-right            |
@@ -1434,6 +1440,7 @@
 | Glass                      | glass                         |
 | GlobeOff                   | globe-off                     |
 | Globe                      | globe                         |
+| GoGame                     | go-game                       |
 | GolfOff                    | golf-off                      |
 | Golf                       | golf                          |
 | Gps                        | gps                           |
@@ -1735,6 +1742,7 @@
 | LivePhoto                  | live-photo                    |
 | LiveView                   | live-view                     |
 | LoaderTwo                  | loader-2                      |
+| LoaderThree                | loader-3                      |
 | LoaderQuarter              | loader-quarter                |
 | Loader                     | loader                        |
 | LocationBroken             | location-broken               |
@@ -1834,6 +1842,7 @@
 | MedicalCrossOff            | medical-cross-off             |
 | MedicalCross               | medical-cross                 |
 | MedicineSyrup              | medicine-syrup                |
+| Meeple                     | meeple                        |
 | MenuTwo                    | menu-2                        |
 | Menu                       | menu                          |
 | MessageTwoCode             | message-2-code                |
@@ -2112,6 +2121,7 @@
 | Pointer                    | pointer                       |
 | PokeballOff                | pokeball-off                  |
 | Pokeball                   | pokeball                      |
+| PokerChip                  | poker-chip                    |
 | Polaroid                   | polaroid                      |
 | PolygonOff                 | polygon-off                   |
 | Polygon                    | polygon                       |
@@ -2230,6 +2240,10 @@
 | RulerOff                   | ruler-off                     |
 | Ruler                      | ruler                         |
 | Run                        | run                           |
+| STurnDown                  | s-turn-down                   |
+| STurnLeft                  | s-turn-left                   |
+| STurnRight                 | s-turn-right                  |
+| STurnUp                    | s-turn-up                     |
 | SailboatOff                | sailboat-off                  |
 | Sailboat                   | sailboat                      |
 | Salad                      | salad                         |
@@ -2504,6 +2518,7 @@
 | TallymarkFour              | tallymark-4                   |
 | Tallymarks                 | tallymarks                    |
 | Tank                       | tank                          |
+| TargetArrow                | target-arrow                  |
 | TargetOff                  | target-off                    |
 | Target                     | target                        |
 | TelescopeOff               | telescope-off                 |
@@ -2538,11 +2553,13 @@
 | TextSpellcheck             | text-spellcheck               |
 | TextWrapDisabled           | text-wrap-disabled            |
 | TextWrap                   | text-wrap                     |
+| Texture                    | texture                       |
 | Thermometer                | thermometer                   |
 | ThumbDownOff               | thumb-down-off                |
 | ThumbDown                  | thumb-down                    |
 | ThumbUpOff                 | thumb-up-off                  |
 | ThumbUp                    | thumb-up                      |
+| TicTac                     | tic-tac                       |
 | TicketOff                  | ticket-off                    |
 | Ticket                     | ticket                        |
 | Tie                        | tie                           |
@@ -2716,6 +2733,7 @@
 | Webhook                    | webhook                       |
 | WheelchairOff              | wheelchair-off                |
 | Wheelchair                 | wheelchair                    |
+| Whirl                      | whirl                         |
 | WifiZero                   | wifi-0                        |
 | WifiOne                    | wifi-1                        |
 | WifiTwo                    | wifi-2                        |
