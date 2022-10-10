@@ -13,7 +13,5 @@
   on:click
 >
 <!-- Tabler Icons %%TABLER_ICON_VERSION%% | MIT License | https://tabler-icons.io -->
-<!-- START -->
   %%SVG_CONTENT%%
-<!-- END  -->
 </svg>

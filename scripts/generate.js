@@ -49,7 +49,7 @@ const generateComponents = async () => {
       "utf8"
     );
 
-    const [, svgContent] = /<svg[^>]*>([\s\S]*?)<\/svg>/.exec(svgFileContents);
+    const [, svgContent] = /<svg[^>]*>\n([\s\S]*?)<\/svg>/.exec(svgFileContents);
     let source = fs
       .readFileSync(
         path.resolve(__dirname, "./ComponentTemplate.svelte"),
