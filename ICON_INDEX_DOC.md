@@ -29,6 +29,7 @@
 | AerialLift                 | aerial-lift                   |
 | Affiliate                  | affiliate                     |
 | AirBalloon                 | air-balloon                   |
+| AirConditioningDisabled    | air-conditioning-disabled     |
 | AirConditioning            | air-conditioning              |
 | AlarmOff                   | alarm-off                     |
 | Alarm                      | alarm                         |
@@ -54,6 +55,7 @@
 | AlignJustified             | align-justified               |
 | AlignLeft                  | align-left                    |
 | AlignRight                 | align-right                   |
+| Alpha                      | alpha                         |
 | AlphabetCyrillic           | alphabet-cyrillic             |
 | AlphabetGreek              | alphabet-greek                |
 | AlphabetLatin              | alphabet-latin                |
@@ -326,6 +328,7 @@
 | BellX                      | bell-x                        |
 | BellZ                      | bell-z                        |
 | Bell                       | bell                          |
+| Beta                       | beta                          |
 | Bible                      | bible                         |
 | BikeOff                    | bike-off                      |
 | Bike                       | bike                          |
@@ -416,6 +419,7 @@
 | BracketsContain            | brackets-contain              |
 | BracketsOff                | brackets-off                  |
 | Brackets                   | brackets                      |
+| Braile                     | braile                        |
 | BrandFourChan              | brand-4chan                   |
 | BrandAbstract              | brand-abstract                |
 | BrandAdobe                 | brand-adobe                   |
@@ -919,6 +923,8 @@
 | ClipboardX                 | clipboard-x                   |
 | Clipboard                  | clipboard                     |
 | ClockTwo                   | clock-2                       |
+| ClockCancel                | clock-cancel                  |
+| ClockEdit                  | clock-edit                    |
 | ClockHourOne               | clock-hour-1                  |
 | ClockHourTen               | clock-hour-10                 |
 | ClockHourEleven            | clock-hour-11                 |
@@ -932,6 +938,10 @@
 | ClockHourEight             | clock-hour-8                  |
 | ClockHourNine              | clock-hour-9                  |
 | ClockOff                   | clock-off                     |
+| ClockPause                 | clock-pause                   |
+| ClockPlay                  | clock-play                    |
+| ClockRecord                | clock-record                  |
+| ClockStop                  | clock-stop                    |
 | Clock                      | clock                         |
 | ClothesRackOff             | clothes-rack-off              |
 | ClothesRack                | clothes-rack                  |
@@ -1112,6 +1122,7 @@
 | CursorOff                  | cursor-off                    |
 | CursorText                 | cursor-text                   |
 | Cut                        | cut                           |
+| Cylinder                   | cylinder                      |
 | DashboardOff               | dashboard-off                 |
 | Dashboard                  | dashboard                     |
 | DatabaseExport             | database-export               |
@@ -2387,6 +2398,9 @@
 | Sock                       | sock                          |
 | SofaOff                    | sofa-off                      |
 | Sofa                       | sofa                          |
+| SortZeroNine               | sort-0-9                      |
+| SortNineZero               | sort-9-0                      |
+| SortAZ                     | sort-a-z                      |
 | SortAscendingTwo           | sort-ascending-2              |
 | SortAscendingLetters       | sort-ascending-letters        |
 | SortAscendingNumbers       | sort-ascending-numbers        |
@@ -2395,6 +2409,7 @@
 | SortDescendingLetters      | sort-descending-letters       |
 | SortDescendingNumbers      | sort-descending-numbers       |
 | SortDescending             | sort-descending               |
+| SortZA                     | sort-z-a                      |
 | Sos                        | sos                           |
 | SoupOff                    | soup-off                      |
 | Soup                       | soup                          |
@@ -2529,6 +2544,7 @@
 | Superscript                | superscript                   |
 | Svg                        | svg                           |
 | Swimming                   | swimming                      |
+| Swipe                      | swipe                         |
 | SwitchTwo                  | switch-2                      |
 | SwitchThree                | switch-3                      |
 | SwitchHorizontal           | switch-horizontal             |
@@ -2557,6 +2573,7 @@
 | TargetArrow                | target-arrow                  |
 | TargetOff                  | target-off                    |
 | Target                     | target                        |
+| Teapot                     | teapot                        |
 | TelescopeOff               | telescope-off                 |
 | Telescope                  | telescope                     |
 | TemperatureCelsius         | temperature-celsius           |
@@ -2602,6 +2619,7 @@
 | Tilde                      | tilde                         |
 | TiltShiftOff               | tilt-shift-off                |
 | TiltShift                  | tilt-shift                    |
+| TimelineEvent              | timeline-event                |
 | Timeline                   | timeline                      |
 | Tir                        | tir                           |
 | ToggleLeft                 | toggle-left                   |
