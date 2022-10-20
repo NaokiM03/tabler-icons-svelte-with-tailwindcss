@@ -20,7 +20,7 @@
     "update": "ncu -u"
   },
   "devDependencies": {
-    "@tabler/icons": "^1.105.0",
+    "@tabler/icons": "^1.106.0",
     "number-to-words": "^1.2.4",
     "pascalcase": "^2.0.0",
     "prettier": "^2.7.1",
