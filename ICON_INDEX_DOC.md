@@ -2,6 +2,7 @@
 
 | Module Name                | Original Name                 |
 | -------------------------- | ----------------------------- |
+| OneHundredTwentyThree      | 123                           |
 | TwoFa                      | 2fa                           |
 | ThreeDCubeSphereOff        | 3d-cube-sphere-off            |
 | ThreeDCubeSphere           | 3d-cube-sphere                |
@@ -268,7 +269,19 @@
 | BackpackOff                | backpack-off                  |
 | Backpack                   | backpack                      |
 | Backspace                  | backspace                     |
+| BadgeThreeD                | badge-3d                      |
+| BadgeFourK                 | badge-4k                      |
+| BadgeEightK                | badge-8k                      |
+| BadgeAd                    | badge-ad                      |
+| BadgeAr                    | badge-ar                      |
+| BadgeCc                    | badge-cc                      |
+| BadgeHd                    | badge-hd                      |
 | BadgeOff                   | badge-off                     |
+| BadgeSd                    | badge-sd                      |
+| BadgeTm                    | badge-tm                      |
+| BadgeVo                    | badge-vo                      |
+| BadgeVr                    | badge-vr                      |
+| BadgeWc                    | badge-wc                      |
 | Badge                      | badge                         |
 | BadgesOff                  | badges-off                    |
 | Badges                     | badges                        |
@@ -411,6 +424,7 @@
 | BoxMultiple                | box-multiple                  |
 | BoxOff                     | box-off                       |
 | BoxPadding                 | box-padding                   |
+| BoxSeam                    | box-seam                      |
 | Box                        | box                           |
 | BracesOff                  | braces-off                    |
 | Braces                     | braces                        |
@@ -529,6 +543,7 @@
 | BrandLastfm                | brand-lastfm                  |
 | BrandLinkedin              | brand-linkedin                |
 | BrandLinktree              | brand-linktree                |
+| BrandLinqpad               | brand-linqpad                 |
 | BrandLoom                  | brand-loom                    |
 | BrandMailgun               | brand-mailgun                 |
 | BrandMantine               | brand-mantine                 |
@@ -914,6 +929,7 @@
 | Click                      | click                         |
 | ClipboardCheck             | clipboard-check               |
 | ClipboardCopy              | clipboard-copy                |
+| ClipboardData              | clipboard-data                |
 | ClipboardHeart             | clipboard-heart               |
 | ClipboardList              | clipboard-list                |
 | ClipboardOff               | clipboard-off                 |
@@ -1386,6 +1402,7 @@
 | FlaskTwo                   | flask-2                       |
 | FlaskOff                   | flask-off                     |
 | Flask                      | flask                         |
+| FlipFlops                  | flip-flops                    |
 | FlipHorizontal             | flip-horizontal               |
 | FlipVertical               | flip-vertical                 |
 | FloatCenter                | float-center                  |
@@ -2716,6 +2733,7 @@
 | VectorBezierCircle         | vector-bezier-circle          |
 | VectorBezier               | vector-bezier                 |
 | VectorOff                  | vector-off                    |
+| VectorSpline               | vector-spline                 |
 | VectorTriangleOff          | vector-triangle-off           |
 | VectorTriangle             | vector-triangle               |
 | Vector                     | vector                        |
