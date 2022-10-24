@@ -6,7 +6,7 @@ This library provides components that export class attributes for TailwindCSS us
 
 A library of Svelte components for [Tabler Icons](https://github.com/tabler/tabler-icons).
 
-> A set of 2871 free MIT-licensed high-quality SVG icons for you to use in your web projects. Each icon is designed on a 24x24 grid and a 2px stroke.
+> A set of 2889 free MIT-licensed high-quality SVG icons for you to use in your web projects. Each icon is designed on a 24x24 grid and a 2px stroke.
 
 ## Installation
 
