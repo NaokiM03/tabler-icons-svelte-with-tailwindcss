@@ -4,6 +4,7 @@
 | -------------------------- | ----------------------------- |
 | OneHundredTwentyThree      | 123                           |
 | TwoFa                      | 2fa                           |
+| ThreeHundredSixtyView      | 360-view                      |
 | ThreeDCubeSphereOff        | 3d-cube-sphere-off            |
 | ThreeDCubeSphere           | 3d-cube-sphere                |
 | ThreeDRotate               | 3d-rotate                     |
@@ -12,6 +13,7 @@
 | AB                         | a-b                           |
 | AbacusOff                  | abacus-off                    |
 | Abacus                     | abacus                        |
+| Abc                        | abc                           |
 | AccessPointOff             | access-point-off              |
 | AccessPoint                | access-point                  |
 | AccessibleOff              | accessible-off                |
@@ -459,6 +461,7 @@
 | BrandBehance               | brand-behance                 |
 | BrandBing                  | brand-bing                    |
 | BrandBitbucket             | brand-bitbucket               |
+| BrandBlackbery             | brand-blackbery               |
 | BrandBlender               | brand-blender                 |
 | BrandBlogger               | brand-blogger                 |
 | BrandBooking               | brand-booking                 |
@@ -563,6 +566,7 @@
 | BrandNextjs                | brand-nextjs                  |
 | BrandNordVpn               | brand-nord-vpn                |
 | BrandNotion                | brand-notion                  |
+| BrandNpm                   | brand-npm                     |
 | BrandNuxt                  | brand-nuxt                    |
 | BrandNytimes               | brand-nytimes                 |
 | BrandOffice                | brand-office                  |
@@ -688,6 +692,7 @@
 | Browser                    | browser                       |
 | BrushOff                   | brush-off                     |
 | Brush                      | brush                         |
+| BucketDroplet              | bucket-droplet                |
 | BucketOff                  | bucket-off                    |
 | Bucket                     | bucket                        |
 | BugOff                     | bug-off                       |
@@ -827,6 +832,11 @@
 | ChefHatOff                 | chef-hat-off                  |
 | ChefHat                    | chef-hat                      |
 | Cherry                     | cherry                        |
+| ChessBishop                | chess-bishop                  |
+| ChessKing                  | chess-king                    |
+| ChessKnight                | chess-knight                  |
+| ChessQueen                 | chess-queen                   |
+| ChessRook                  | chess-rook                    |
 | Chess                      | chess                         |
 | ChevronDownLeft            | chevron-down-left             |
 | ChevronDownRight           | chevron-down-right            |
@@ -1258,6 +1268,12 @@
 | EPassport                  | e-passport                    |
 | EarOff                     | ear-off                       |
 | Ear                        | ear                           |
+| EaseInControlPoint         | ease-in-control-point         |
+| EaseInOutControlPoints     | ease-in-out-control-points    |
+| EaseInOut                  | ease-in-out                   |
+| EaseIn                     | ease-in                       |
+| EaseOutControlPoint        | ease-out-control-point        |
+| EaseOut                    | ease-out                      |
 | EditCircleOff              | edit-circle-off               |
 | EditCircle                 | edit-circle                   |
 | EditOff                    | edit-off                      |
@@ -1686,6 +1702,7 @@
 | KeyboardOff                | keyboard-off                  |
 | KeyboardShow               | keyboard-show                 |
 | Keyboard                   | keyboard                      |
+| Keyframe                   | keyframe                      |
 | LadderOff                  | ladder-off                    |
 | Ladder                     | ladder                        |
 | Lambda                     | lambda                        |
@@ -1856,6 +1873,7 @@
 | MasksTheaterOff            | masks-theater-off             |
 | MasksTheater               | masks-theater                 |
 | Massage                    | massage                       |
+| Matchstick                 | matchstick                    |
 | MathOneDivideTwo           | math-1-divide-2               |
 | MathOneDivideThree         | math-1-divide-3               |
 | MathAvg                    | math-avg                      |
