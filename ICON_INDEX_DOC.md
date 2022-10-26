@@ -143,6 +143,7 @@
 | ArrowForwardUp             | arrow-forward-up              |
 | ArrowForward               | arrow-forward                 |
 | ArrowGuide                 | arrow-guide                   |
+| ArrowIteration             | arrow-iteration               |
 | ArrowLeftBar               | arrow-left-bar                |
 | ArrowLeftCircle            | arrow-left-circle             |
 | ArrowLeftRight             | arrow-left-right              |
@@ -995,6 +996,7 @@
 | Code                       | code                          |
 | CoffeeOff                  | coffee-off                    |
 | Coffee                     | coffee                        |
+| Coffin                     | coffin                        |
 | CoinBitcoin                | coin-bitcoin                  |
 | CoinEuro                   | coin-euro                     |
 | CoinMonero                 | coin-monero                   |
@@ -1030,6 +1032,7 @@
 | ContrastTwo                | contrast-2                    |
 | ContrastOff                | contrast-off                  |
 | Contrast                   | contrast                      |
+| Cooker                     | cooker                        |
 | CookieMan                  | cookie-man                    |
 | CookieOff                  | cookie-off                    |
 | Cookie                     | cookie                        |
@@ -1078,6 +1081,7 @@
 | Crown                      | crown                         |
 | CrutchesOff                | crutches-off                  |
 | Crutches                   | crutches                      |
+| CrystalBall                | crystal-ball                  |
 | CupOff                     | cup-off                       |
 | Cup                        | cup                           |
 | Curling                    | curling                       |
@@ -1481,13 +1485,16 @@
 | GenderTransgender          | gender-transgender            |
 | GenderTrasvesti            | gender-trasvesti              |
 | Geometry                   | geometry                      |
+| GhostTwo                   | ghost-2                       |
 | GhostOff                   | ghost-off                     |
 | Ghost                      | ghost                         |
 | Gif                        | gif                           |
 | GiftCard                   | gift-card                     |
 | GiftOff                    | gift-off                      |
 | Gift                       | gift                          |
+| GitBranchDeleted           | git-branch-deleted            |
 | GitBranch                  | git-branch                    |
+| GitCherryPick              | git-cherry-pick               |
 | GitCommit                  | git-commit                    |
 | GitCompare                 | git-compare                   |
 | GitFork                    | git-fork                      |
@@ -1509,6 +1516,8 @@
 | Grain                      | grain                         |
 | GraphOff                   | graph-off                     |
 | Graph                      | graph                         |
+| GraveTwo                   | grave-2                       |
+| Grave                      | grave                         |
 | GridDots                   | grid-dots                     |
 | GridPattern                | grid-pattern                  |
 | GrillFork                  | grill-fork                    |
@@ -1690,6 +1699,7 @@
 | IroningSteamOff            | ironing-steam-off             |
 | IroningSteam               | ironing-steam                 |
 | Italic                     | italic                        |
+| Jetpack                    | jetpack                       |
 | JewishStar                 | jewish-star                   |
 | Jpg                        | jpg                           |
 | JumpRope                   | jump-rope                     |
@@ -1702,7 +1712,11 @@
 | KeyboardOff                | keyboard-off                  |
 | KeyboardShow               | keyboard-show                 |
 | Keyboard                   | keyboard                      |
+| KeyframeAlignCenter        | keyframe-align-center         |
+| KeyframeAlignHorizontal    | keyframe-align-horizontal     |
+| KeyframeAlignVertical      | keyframe-align-vertical       |
 | Keyframe                   | keyframe                      |
+| Keyframes                  | keyframes                     |
 | LadderOff                  | ladder-off                    |
 | Ladder                     | ladder                        |
 | Lambda                     | lambda                        |
@@ -2101,6 +2115,7 @@
 | Pennant                    | pennant                       |
 | PentagonOff                | pentagon-off                  |
 | Pentagon                   | pentagon                      |
+| Pentagram                  | pentagram                     |
 | PepperOff                  | pepper-off                    |
 | Pepper                     | pepper                        |
 | Percentage                 | percentage                    |
@@ -2213,6 +2228,7 @@
 | Prompt                     | prompt                        |
 | PropellerOff               | propeller-off                 |
 | Propeller                  | propeller                     |
+| PumpkinScary               | pumpkin-scary                 |
 | PuzzleTwo                  | puzzle-2                      |
 | PuzzleOff                  | puzzle-off                    |
 | Puzzle                     | puzzle                        |
@@ -2417,6 +2433,7 @@
 | Skateboard                 | skateboard                    |
 | Skull                      | skull                         |
 | Slash                      | slash                         |
+| Slashes                    | slashes                       |
 | Sleigh                     | sleigh                        |
 | Slice                      | slice                         |
 | Slideshow                  | slideshow                     |
@@ -2821,6 +2838,7 @@
 | WaveSquare                 | wave-square                   |
 | WebhookOff                 | webhook-off                   |
 | Webhook                    | webhook                       |
+| Weight                     | weight                        |
 | WheelchairOff              | wheelchair-off                |
 | Wheelchair                 | wheelchair                    |
 | Whirl                      | whirl                         |
