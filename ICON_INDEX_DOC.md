@@ -1026,6 +1026,7 @@
 | Cone                       | cone                          |
 | ConfettiOff                | confetti-off                  |
 | Confetti                   | confetti                      |
+| Confucius                  | confucius                     |
 | ContainerOff               | container-off                 |
 | Container                  | container                     |
 | ContrastTwoOff             | contrast-2-off                |
@@ -1406,6 +1407,7 @@
 | FirstAidKitOff             | first-aid-kit-off             |
 | FirstAidKit                | first-aid-kit                 |
 | FishBone                   | fish-bone                     |
+| FishChristianity           | fish-christianity             |
 | FishHookOff                | fish-hook-off                 |
 | FishHook                   | fish-hook                     |
 | FishOff                    | fish-off                      |
@@ -1929,6 +1931,7 @@
 | MedicalCross               | medical-cross                 |
 | MedicineSyrup              | medicine-syrup                |
 | Meeple                     | meeple                        |
+| Menorah                    | menorah                       |
 | MenuTwo                    | menu-2                        |
 | Menu                       | menu                          |
 | MessageTwoCode             | message-2-code                |
@@ -2072,6 +2075,7 @@
 | Old                        | old                           |
 | OlympicsOff                | olympics-off                  |
 | Olympics                   | olympics                      |
+| Om                         | om                            |
 | Omega                      | omega                         |
 | Outbound                   | outbound                      |
 | Outlet                     | outlet                        |
@@ -2294,6 +2298,7 @@
 | ReportSearch               | report-search                 |
 | Report                     | report                        |
 | Resize                     | resize                        |
+| RibbonHealth               | ribbon-health                 |
 | RippleOff                  | ripple-off                    |
 | Ripple                     | ripple                        |
 | RoadOff                    | road-off                      |
@@ -2306,6 +2311,17 @@
 | RollerSkating              | roller-skating                |
 | RollercoasterOff           | rollercoaster-off             |
 | Rollercoaster              | rollercoaster                 |
+| RosetteNumberZero          | rosette-number-0              |
+| RosetteNumberOne           | rosette-number-1              |
+| RosetteNumberTwo           | rosette-number-2              |
+| RosetteNumberThree         | rosette-number-3              |
+| RosetteNumberFour          | rosette-number-4              |
+| RosetteNumberFive          | rosette-number-5              |
+| RosetteNumberSix           | rosette-number-6              |
+| RosetteNumberSeven         | rosette-number-7              |
+| RosetteNumberEight         | rosette-number-8              |
+| RosetteNumberNine          | rosette-number-9              |
+| Rosette                    | rosette                       |
 | RotateTwo                  | rotate-2                      |
 | RotateThreeHundredSixty    | rotate-360                    |
 | RotateClockwiseTwo         | rotate-clockwise-2            |
@@ -2545,6 +2561,7 @@
 | SquareRotatedForbid        | square-rotated-forbid         |
 | SquareRotatedOff           | square-rotated-off            |
 | SquareRotated              | square-rotated                |
+| SquareRounded              | square-rounded                |
 | SquareToggleHorizontal     | square-toggle-horizontal      |
 | SquareToggle               | square-toggle                 |
 | SquareX                    | square-x                      |
@@ -2686,6 +2703,7 @@
 | ToolsOff                   | tools-off                     |
 | Tools                      | tools                         |
 | Tooltip                    | tooltip                       |
+| Torii                      | torii                         |
 | Tornado                    | tornado                       |
 | Tournament                 | tournament                    |
 | TowerOff                   | tower-off                     |
