@@ -369,6 +369,7 @@
 | Bold                       | bold                          |
 | BoltOff                    | bolt-off                      |
 | Bolt                       | bolt                          |
+| Bomb                       | bomb                          |
 | BoneOff                    | bone-off                      |
 | Bone                       | bone                          |
 | BongOff                    | bong-off                      |
@@ -399,6 +400,8 @@
 | BorderVertical             | border-vertical               |
 | BottleOff                  | bottle-off                    |
 | Bottle                     | bottle                        |
+| BounceLeft                 | bounce-left                   |
+| BounceRight                | bounce-right                  |
 | Bow                        | bow                           |
 | Bowl                       | bowl                          |
 | BoxAlignBottomLeft         | box-align-bottom-left         |
@@ -437,6 +440,7 @@
 | BracketsOff                | brackets-off                  |
 | Brackets                   | brackets                      |
 | Braile                     | braile                        |
+| Brain                      | brain                         |
 | BrandFourChan              | brand-4chan                   |
 | BrandAbstract              | brand-abstract                |
 | BrandAdobe                 | brand-adobe                   |
@@ -460,6 +464,7 @@
 | BrandBandcamp              | brand-bandcamp                |
 | BrandBeats                 | brand-beats                   |
 | BrandBehance               | brand-behance                 |
+| BrandBinance               | brand-binance                 |
 | BrandBing                  | brand-bing                    |
 | BrandBitbucket             | brand-bitbucket               |
 | BrandBlackbery             | brand-blackbery               |
@@ -561,8 +566,10 @@
 | BrandMixpanel              | brand-mixpanel                |
 | BrandMonday                | brand-monday                  |
 | BrandMyOppo                | brand-my-oppo                 |
+| BrandNem                   | brand-nem                     |
 | BrandNetbeans              | brand-netbeans                |
 | BrandNetflix               | brand-netflix                 |
+| BrandNexo                  | brand-nexo                    |
 | BrandNextcloud             | brand-nextcloud               |
 | BrandNextjs                | brand-nextjs                  |
 | BrandNordVpn               | brand-nord-vpn                |
@@ -626,10 +633,12 @@
 | BrandTabler                | brand-tabler                  |
 | BrandTailwind              | brand-tailwind                |
 | BrandTelegram              | brand-telegram                |
+| BrandTether                | brand-tether                  |
 | BrandTidal                 | brand-tidal                   |
 | BrandTiktok                | brand-tiktok                  |
 | BrandTinder                | brand-tinder                  |
 | BrandTopbuzz               | brand-topbuzz                 |
+| BrandTorchain              | brand-torchain                |
 | BrandToyota                | brand-toyota                  |
 | BrandTrello                | brand-trello                  |
 | BrandTripadvisor           | brand-tripadvisor             |
@@ -709,6 +718,7 @@
 | BuildingCircus             | building-circus               |
 | BuildingCommunity          | building-community            |
 | BuildingCottage            | building-cottage              |
+| BuildingEstate             | building-estate               |
 | BuildingFactoryTwo         | building-factory-2            |
 | BuildingFactory            | building-factory              |
 | BuildingFortress           | building-fortress             |
@@ -718,6 +728,7 @@
 | BuildingPavilon            | building-pavilon              |
 | BuildingSkyscraper         | building-skyscraper           |
 | BuildingStore              | building-store                |
+| BuildingTunnel             | building-tunnel               |
 | BuildingWarehouse          | building-warehouse            |
 | BuildingWindTurbine        | building-wind-turbine         |
 | Building                   | building                      |
@@ -749,6 +760,7 @@
 | CameraRotate               | camera-rotate                 |
 | CameraSelfie               | camera-selfie                 |
 | Camera                     | camera                        |
+| Campfire                   | campfire                      |
 | Candle                     | candle                        |
 | CandyOff                   | candy-off                     |
 | Candy                      | candy                         |
@@ -1006,6 +1018,7 @@
 | CoinYen                    | coin-yen                      |
 | CoinYuan                   | coin-yuan                     |
 | Coin                       | coin                          |
+| ColorFilter                | color-filter                  |
 | ColorPickerOff             | color-picker-off              |
 | ColorPicker                | color-picker                  |
 | ColorSwatchOff             | color-swatch-off              |
@@ -1167,6 +1180,7 @@
 | Dental                     | dental                        |
 | DetailsOff                 | details-off                   |
 | Details                    | details                       |
+| DeviceAirpods              | device-airpods                |
 | DeviceAnalytics            | device-analytics              |
 | DeviceAudioTape            | device-audio-tape             |
 | DeviceCameraPhone          | device-camera-phone           |
@@ -2337,6 +2351,8 @@
 | RowInsertBottom            | row-insert-bottom             |
 | RowInsertTop               | row-insert-top                |
 | Rss                        | rss                           |
+| RubberStampOff             | rubber-stamp-off              |
+| RubberStamp                | rubber-stamp                  |
 | RulerTwoOff                | ruler-2-off                   |
 | RulerTwo                   | ruler-2                       |
 | RulerThree                 | ruler-3                       |
@@ -2401,6 +2417,7 @@
 | ServerOff                  | server-off                    |
 | Server                     | server                        |
 | Servicemark                | servicemark                   |
+| SettingsTwo                | settings-2                    |
 | SettingsAutomation         | settings-automation           |
 | SettingsOff                | settings-off                  |
 | Settings                   | settings                      |
@@ -2728,6 +2745,7 @@
 | Trash                      | trash                         |
 | Tree                       | tree                          |
 | Trees                      | trees                         |
+| Trekking                   | trekking                      |
 | TrendingDownTwo            | trending-down-2               |
 | TrendingDownThree          | trending-down-3               |
 | TrendingDown               | trending-down                 |
