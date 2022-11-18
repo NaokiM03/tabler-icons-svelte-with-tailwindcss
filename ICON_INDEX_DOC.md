@@ -267,6 +267,7 @@
 | Axe                        | axe                           |
 | AxisX                      | axis-x                        |
 | AxisY                      | axis-y                        |
+| BabyBottle                 | baby-bottle                   |
 | BabyCarriage               | baby-carriage                 |
 | Backhoe                    | backhoe                       |
 | BackpackOff                | backpack-off                  |
@@ -349,6 +350,8 @@
 | BikeOff                    | bike-off                      |
 | Bike                       | bike                          |
 | BinaryOff                  | binary-off                    |
+| BinaryTreeTwo              | binary-tree-2                 |
+| BinaryTree                 | binary-tree                   |
 | Binary                     | binary                        |
 | BiohazardOff               | biohazard-off                 |
 | Biohazard                  | biohazard                     |
@@ -481,6 +484,7 @@
 | BrandCodecov               | brand-codecov                 |
 | BrandCodepen               | brand-codepen                 |
 | BrandCodesandbox           | brand-codesandbox             |
+| BrandCohost                | brand-cohost                  |
 | BrandCoinbase              | brand-coinbase                |
 | BrandComedyCentral         | brand-comedy-central          |
 | BrandCouchsurfing          | brand-couchsurfing            |
@@ -539,6 +543,7 @@
 | BrandGravatar              | brand-gravatar                |
 | BrandGrindr                | brand-grindr                  |
 | BrandGuardian              | brand-guardian                |
+| BrandGumroad               | brand-gumroad                 |
 | BrandHeadlessui            | brand-headlessui              |
 | BrandHipchat               | brand-hipchat                 |
 | BrandHtmlFive              | brand-html5                   |
@@ -579,6 +584,7 @@
 | BrandNytimes               | brand-nytimes                 |
 | BrandOffice                | brand-office                  |
 | BrandOkRu                  | brand-ok-ru                   |
+| BrandOnedrive              | brand-onedrive                |
 | BrandOpenSource            | brand-open-source             |
 | BrandOpenvpn               | brand-openvpn                 |
 | BrandOpera                 | brand-opera                   |
@@ -663,6 +669,7 @@
 | BrandVscode                | brand-vscode                  |
 | BrandVue                   | brand-vue                     |
 | BrandWalmart               | brand-walmart                 |
+| BrandWaze                  | brand-waze                    |
 | BrandWebflow               | brand-webflow                 |
 | BrandWhatsapp              | brand-whatsapp                |
 | BrandWindows               | brand-windows                 |
@@ -2756,6 +2763,19 @@
 | ToolsOff                   | tools-off                     |
 | Tools                      | tools                         |
 | Tooltip                    | tooltip                       |
+| TopologyBus                | topology-bus                  |
+| TopologyComplex            | topology-complex              |
+| TopologyFullHierarchy      | topology-full-hierarchy       |
+| TopologyFull               | topology-full                 |
+| TopologyRingTwo            | topology-ring-2               |
+| TopologyRingThree          | topology-ring-3               |
+| TopologyRing               | topology-ring                 |
+| TopologyStarTwo            | topology-star-2               |
+| TopologyStarThree          | topology-star-3               |
+| TopologyStarRingTwo        | topology-star-ring-2          |
+| TopologyStarRingThree      | topology-star-ring-3          |
+| TopologyStarRing           | topology-star-ring            |
+| TopologyStar               | topology-star                 |
 | Torii                      | torii                         |
 | Tornado                    | tornado                       |
 | Tournament                 | tournament                    |
@@ -2831,6 +2851,7 @@
 | VaccineBottle              | vaccine-bottle                |
 | VaccineOff                 | vaccine-off                   |
 | Vaccine                    | vaccine                       |
+| VacuumCleaner              | vacuum-cleaner                |
 | VariableMinus              | variable-minus                |
 | VariableOff                | variable-off                  |
 | VariablePlus               | variable-plus                 |
