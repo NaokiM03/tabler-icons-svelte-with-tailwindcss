@@ -1,6 +1,6 @@
 {
   "name": "tabler-icons-svelte-with-tailwindcss",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "description": "Tabler Icons as svelte components. This library is designed to be used with tailwindcss",
   "license": "MIT",
   "author": "NaokiM03",
