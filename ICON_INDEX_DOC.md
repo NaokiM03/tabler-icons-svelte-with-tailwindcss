@@ -3,6 +3,7 @@
 | Module Name                | Original Name                 |
 | -------------------------- | ----------------------------- |
 | OneHundredTwentyThree      | 123                           |
+| TwentyFourHours            | 24-hours                      |
 | TwoFa                      | 2fa                           |
 | ThreeHundredSixtyView      | 360-view                      |
 | ThreeDCubeSphereOff        | 3d-cube-sphere-off            |
@@ -456,6 +457,7 @@
 | BrandAmongus               | brand-amongus                 |
 | BrandAndroid               | brand-android                 |
 | BrandAngular               | brand-angular                 |
+| BrandAoThree               | brand-ao3                     |
 | BrandAppgallery            | brand-appgallery              |
 | BrandAppleArcade           | brand-apple-arcade            |
 | BrandApplePodcast          | brand-apple-podcast           |
@@ -464,6 +466,7 @@
 | BrandAsana                 | brand-asana                   |
 | BrandBackbone              | brand-backbone                |
 | BrandBadoo                 | brand-badoo                   |
+| BrandBaidu                 | brand-baidu                   |
 | BrandBandcamp              | brand-bandcamp                |
 | BrandBeats                 | brand-beats                   |
 | BrandBehance               | brand-behance                 |
@@ -500,6 +503,7 @@
 | BrandDeliveroo             | brand-deliveroo               |
 | BrandDeno                  | brand-deno                    |
 | BrandDeviantart            | brand-deviantart              |
+| BrandDingtalk              | brand-dingtalk                |
 | BrandDiscord               | brand-discord                 |
 | BrandDisney                | brand-disney                  |
 | BrandDisqus                | brand-disqus                  |
@@ -563,6 +567,7 @@
 | BrandMantine               | brand-mantine                 |
 | BrandMastercard            | brand-mastercard              |
 | BrandMastodon              | brand-mastodon                |
+| BrandMatrix                | brand-matrix                  |
 | BrandMcdonalds             | brand-mcdonalds               |
 | BrandMedium                | brand-medium                  |
 | BrandMercedes              | brand-mercedes                |
@@ -591,6 +596,7 @@
 | BrandPagekit               | brand-pagekit                 |
 | BrandPatreon               | brand-patreon                 |
 | BrandPaypal                | brand-paypal                  |
+| BrandPaypay                | brand-paypay                  |
 | BrandPeanut                | brand-peanut                  |
 | BrandPepsi                 | brand-pepsi                   |
 | BrandPhp                   | brand-php                     |
@@ -598,6 +604,7 @@
 | BrandPinterest             | brand-pinterest               |
 | BrandPocket                | brand-pocket                  |
 | BrandPolymer               | brand-polymer                 |
+| BrandPowershell            | brand-powershell              |
 | BrandPrisma                | brand-prisma                  |
 | BrandProducthunt           | brand-producthunt             |
 | BrandPushbullet            | brand-pushbullet              |
@@ -623,6 +630,7 @@
 | BrandSnapchat              | brand-snapchat                |
 | BrandSnapseed              | brand-snapseed                |
 | BrandSocketIo              | brand-socket-io               |
+| BrandSolidjs               | brand-solidjs                 |
 | BrandSoundcloud            | brand-soundcloud              |
 | BrandSpacehey              | brand-spacehey                |
 | BrandSpotify               | brand-spotify                 |
@@ -638,8 +646,10 @@
 | BrandSvelte                | brand-svelte                  |
 | BrandTabler                | brand-tabler                  |
 | BrandTailwind              | brand-tailwind                |
+| BrandTaobao                | brand-taobao                  |
 | BrandTelegram              | brand-telegram                |
 | BrandTether                | brand-tether                  |
+| BrandThreejs               | brand-threejs                 |
 | BrandTidal                 | brand-tidal                   |
 | BrandTiktok                | brand-tiktok                  |
 | BrandTinder                | brand-tinder                  |
@@ -651,6 +661,7 @@
 | BrandTumblr                | brand-tumblr                  |
 | BrandTwitch                | brand-twitch                  |
 | BrandTwitter               | brand-twitter                 |
+| BrandTypescript            | brand-typescript              |
 | BrandUber                  | brand-uber                    |
 | BrandUbuntu                | brand-ubuntu                  |
 | BrandUnity                 | brand-unity                   |
@@ -662,6 +673,7 @@
 | BrandVinted                | brand-vinted                  |
 | BrandVisa                  | brand-visa                    |
 | BrandVisualStudio          | brand-visual-studio           |
+| BrandVite                  | brand-vite                    |
 | BrandVivaldi               | brand-vivaldi                 |
 | BrandVk                    | brand-vk                      |
 | BrandVolkswagen            | brand-volkswagen              |
@@ -671,6 +683,7 @@
 | BrandWalmart               | brand-walmart                 |
 | BrandWaze                  | brand-waze                    |
 | BrandWebflow               | brand-webflow                 |
+| BrandWechat                | brand-wechat                  |
 | BrandWhatsapp              | brand-whatsapp                |
 | BrandWindows               | brand-windows                 |
 | BrandWindy                 | brand-windy                   |
@@ -1569,6 +1582,7 @@
 | HandOff                    | hand-off                      |
 | HandRingFinger             | hand-ring-finger              |
 | HandRock                   | hand-rock                     |
+| HandSanitizer              | hand-sanitizer                |
 | HandStop                   | hand-stop                     |
 | HandThreeFingers           | hand-three-fingers            |
 | HandTwoFingers             | hand-two-fingers              |
@@ -1954,6 +1968,7 @@
 | Meeple                     | meeple                        |
 | Menorah                    | menorah                       |
 | MenuTwo                    | menu-2                        |
+| MenuOrder                  | menu-order                    |
 | Menu                       | menu                          |
 | MessageTwoCode             | message-2-code                |
 | MessageTwoOff              | message-2-off                 |
@@ -2179,6 +2194,7 @@
 | PigMoney                   | pig-money                     |
 | PigOff                     | pig-off                       |
 | Pig                        | pig                           |
+| Pilcrow                    | pilcrow                       |
 | PillOff                    | pill-off                      |
 | Pill                       | pill                          |
 | Pills                      | pills                         |
@@ -2371,6 +2387,7 @@
 | STurnLeft                  | s-turn-left                   |
 | STurnRight                 | s-turn-right                  |
 | STurnUp                    | s-turn-up                     |
+| SailboatTwo                | sailboat-2                    |
 | SailboatOff                | sailboat-off                  |
 | Sailboat                   | sailboat                      |
 | Salad                      | salad                         |
@@ -2452,6 +2469,7 @@
 | Shirt                      | shirt                         |
 | ShoeOff                    | shoe-off                      |
 | Shoe                       | shoe                          |
+| ShoppingBag                | shopping-bag                  |
 | ShoppingCartDiscount       | shopping-cart-discount        |
 | ShoppingCartOff            | shopping-cart-off             |
 | ShoppingCartPlus           | shopping-cart-plus            |
