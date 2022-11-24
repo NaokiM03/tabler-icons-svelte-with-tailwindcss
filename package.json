@@ -20,11 +20,11 @@
     "update": "ncu -u"
   },
   "devDependencies": {
-    "@tabler/icons": "^1.112.0",
+    "@tabler/icons": "^1.113.0",
     "number-to-words": "^1.2.4",
     "pascalcase": "^2.0.0",
-    "prettier": "^2.7.1",
-    "prettier-plugin-svelte": "^2.8.0"
+    "prettier": "^2.8.0",
+    "prettier-plugin-svelte": "^2.8.1"
   },
   "peerDependencies": {
     "svelte": ">=3.31.0 <=4"
