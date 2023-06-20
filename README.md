@@ -1,3 +1,11 @@
+# ⚠️ This package has not been updated and is deprecated ⚠️
+
+An official svelte package has been created.
+
+Please use [@tabler/icons-svelte](https://www.npmjs.com/package/@tabler/icons-svelte).
+
+---
+
 This library is a fork project of [tabler-icons-svelte](https://github.com/benflap/tabler-icons-svelte)
 
 This library provides components that export class attributes for TailwindCSS users.
